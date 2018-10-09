@@ -24,4 +24,4 @@ ADD config.json /v2ray/config.json
 RUN chmod +x /entrypoint.sh 
 ENTRYPOINT  /entrypoint.sh 
 
-EXPOSE 80
+EXPOSE 80:8080
