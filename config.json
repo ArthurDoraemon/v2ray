@@ -4,12 +4,13 @@
   },
   "inbound": {
     "protocol": "vmess",
-    "port": 8080,
+    "port": 80,
     "settings": {
       "clients": [
         {
           "id": "your_uuid",
-          "alterId": 64
+          "alterId": 64,
+          "security":"aes-128-cfb"
         }
       ]
     },
